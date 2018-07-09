@@ -21,7 +21,7 @@ task findbugs(type: FindBugs) {
   effort= "max"
   reportLevel= "low"
   classes = files("$project.buildDir/intermediates/classes")
-  source= fileTree('build/intermediates/classes/debug/com/sn/')
+  source= fileTree('build/intermediates/classes/debug/com/kooppi/')
   classpath= files()
   reports{
     xml {
